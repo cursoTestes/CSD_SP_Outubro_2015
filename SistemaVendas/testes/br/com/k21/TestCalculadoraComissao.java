@@ -20,7 +20,7 @@ public class TestCalculadoraComissao {
 	@Test
 	public void calcularVendaDe1Retornando5cents() {
 		Double venda = 1.0;
-		Double esperado = 0.051;
+		Double esperado = 0.05;
 
 		CalculadoraComissao cc = new CalculadoraComissao();
 		Double comissao = cc.calcular(venda);
